@@ -15,14 +15,22 @@
 **[ghost-face](https://github.com/GiaSip/ghost-face) —— 它们看起来是谁？**
 10 个前沿模型在压力下的行为画像：你反驳它时它是坚持还是退让，它会不会编造一篇不存在的论文，它倾向发散还是收敛。一次只用一个镜头，每条读数带日期，旧记录不删。整个账号是从这本观察日记里长出来的。
 
+[![ghost-face](assets/ghost-face.png)](https://github.com/GiaSip/ghost-face)
+
 **[ai-hr](https://github.com/GiaSip/ai-hr) —— 反过来，它们会怎么安置我们？**
 把问题倒过来问。一个 agent 只扫描你文件系统的*形状*，不碰任何文件名、不读任何内容，输出 schema 里根本没有这两个字段，然后给你发一张「人类岗位安置通知书」：AI 接管之后，你会被分到 16 种角色里的哪一种。玩笑里有一句真话：你越整齐，越容易被替代。
+
+[![ai-hr](assets/ai-hr.png)](https://github.com/GiaSip/ai-hr)
 
 **[kb-init](https://github.com/GiaSip/kb-init) —— 它们需要我们给什么才能有用？**
 如果 AI 要和人一起工作，它需要我们的上下文，而我们的上下文是一团乱。把 kb-init 指向一份 Notion 或 Apple Notes 导出，它会把多年笔记编译成 agent 真正能读的知识库。在两份真实导出上，大约六成文件是空壳。什么都不删，每一条丢弃都带原因留痕。
 
+[![kb-init](assets/kb-init.png)](https://github.com/GiaSip/kb-init)
+
 **[giasip-skills](https://github.com/GiaSip/giasip-skills) —— 怎么让它们保持诚实？**
 一个跑在 Claude Code 和 Codex 里的调研 skill：每条 claim 带来源 URL，"查不到"好过凭记忆猜，外加一个多模型派遣器。两轮对照实验显示，skill 从 18 行涨到 433 行，精度没涨，花费贵 6 到 13 倍，所以它一直停在 18 行。
+
+[![giasip-skills](assets/giasip-skills.png)](https://github.com/GiaSip/giasip-skills)
 
 ## 我逐渐相信的几件事
 
@@ -77,14 +85,22 @@ I come from design and have spent my career designing internet products; I'm not
 **[ghost-face](https://github.com/GiaSip/ghost-face) — who do they seem to be?**
 Behavioral portraits of 10 frontier models under pressure: does it fold when you push back, does it invent a paper that doesn't exist, does it explore or converge. One lens at a time, every reading dated, nothing deleted. This is the observation diary the whole account grows out of.
 
+[![ghost-face](assets/ghost-face.png)](https://github.com/GiaSip/ghost-face)
+
 **[ai-hr](https://github.com/GiaSip/ai-hr) — and what would they make of us?**
 The question flipped. An agent scans only the *shape* of your file system — never a filename, never a content byte, the output schema has no field for them — and issues you a Human Placement Notice: which of 16 roles you'd be assigned after AI takes over. A joke with a real point inside: the tidier you are, the easier you are to replace.
+
+[![ai-hr](assets/ai-hr.png)](https://github.com/GiaSip/ai-hr)
 
 **[kb-init](https://github.com/GiaSip/kb-init) — what do they need from us to be useful?**
 If AI is going to work alongside people, it needs our context, and our context is a mess. Point kb-init at a Notion or Apple Notes export and it compiles years of notes into a knowledge base an agent can actually read. On two real exports, roughly 60% of the files turned out to be empty shells. Nothing is deleted; every drop is logged with its reason.
 
+[![kb-init](assets/kb-init.png)](https://github.com/GiaSip/kb-init)
+
 **[giasip-skills](https://github.com/GiaSip/giasip-skills) — how do we keep them honest?**
 A research skill for Claude Code and Codex where every claim carries a source URL and a "not found" beats a guess, plus a multi-model dispatcher. Two controlled runs showed that growing the skill from 18 lines to 433 bought no precision and cost 6–13× more, so it stays at 18 lines.
+
+[![giasip-skills](assets/giasip-skills.png)](https://github.com/GiaSip/giasip-skills)
 
 ## A few things I've come to believe
 
