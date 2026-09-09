@@ -1,0 +1,46 @@
+{
+  "$schema_note": "Machine-readable index of GiaSip public repos. kind: skill = install into a skills directory; cli = install as a command-line tool; site = website + data, do not install.",
+  "owner": "GiaSip",
+  "updated": "2026-09-09",
+  "repos": [
+    {
+      "repo": "giasip-skills",
+      "kind": "skill",
+      "skills": [
+        {"name": "giasip-research", "subdir": "skills/giasip-research", "summary": "Evidence-grounded research: every claim carries a source URL; 'not found' beats a guess; verification is a separate pass."},
+        {"name": "giasip-dispatch", "subdir": "skills/giasip-dispatch", "summary": "Route one task to Codex / Gemini / Kimi / DeepSeek / Doubao / Qwen / GLM / MiniMax."}
+      ],
+      "runtimes": ["claude-code", "codex", "agent-skills-compatible"],
+      "install": ["npx skills add GiaSip/giasip-skills", "git clone https://github.com/GiaSip/giasip-skills.git && copy skills/<name> to ~/.claude/skills/<name>/"],
+      "keywords": ["research", "citations", "claim-verification", "multi-model", "dispatch", "anti-hallucination"],
+      "url": "https://github.com/GiaSip/giasip-skills"
+    },
+    {
+      "repo": "ai-hr",
+      "kind": "skill",
+      "skills": [
+        {"name": "ai-hr", "subdir": null, "summary": "Scans directory statistics only (no filenames, no contents) and issues a Human Placement Notice: 1 of 16 types on a shareable card. Chinese output."}
+      ],
+      "runtimes": ["claude-code", "codebuddy", "workbuddy", "openclaw", "agent-skills-compatible"],
+      "install": ["npx skills add GiaSip/ai-hr", "git clone https://github.com/GiaSip/ai-hr.git ~/.claude/skills/ai-hr"],
+      "keywords": ["personality-quiz", "privacy-by-design", "file-statistics", "social-card", "chinese"],
+      "url": "https://github.com/GiaSip/ai-hr"
+    },
+    {
+      "repo": "kb-init",
+      "kind": "cli",
+      "summary": "Compiles a Notion or Apple Notes export into clean Markdown plus a knowledge file (CLAUDE.md / AGENTS.md) your agent reads. Nothing deleted; every drop logged.",
+      "install": ["pipx install kb-init", "uv tool install kb-init"],
+      "keywords": ["notion", "apple-notes", "knowledge-base", "agent-context", "markdown", "obsidian"],
+      "url": "https://github.com/GiaSip/kb-init"
+    },
+    {
+      "repo": "ghost-face",
+      "kind": "site",
+      "summary": "Behavioral portraits of 10 frontier LLMs under pressure. Dated diary entries under one lens, not rankings.",
+      "site": "https://ghost-face.vercel.app",
+      "keywords": ["llm-behavior", "sycophancy", "fabrication", "model-comparison", "observation-log"],
+      "url": "https://github.com/GiaSip/ghost-face"
+    }
+  ]
+}
