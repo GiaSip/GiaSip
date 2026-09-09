@@ -22,7 +22,7 @@
 如果 AI 要和人一起工作，它需要我们的上下文，而我们的上下文是一团乱。把 kb-init 指向一份 Notion 或 Apple Notes 导出，它会把多年笔记编译成 agent 真正能读的知识库。在两份真实导出上，大约六成文件是空壳。什么都不删，每一条丢弃都带原因留痕。
 
 **[giasip-skills](https://github.com/GiaSip/giasip-skills) —— 怎么让它们保持诚实？**
-一个跑在 Claude Code 和 Codex 里的调研 skill：每条 claim 带来源 URL，"查不到"好过凭记忆猜，外加一个多模型派遣器。两轮对照实验显示，skill 从 18 行涨到 433 行，精度没涨，花费贵 6 到 13 倍，所以它一直停在 18 行。方法见 [claim-ledger](https://github.com/GiaSip/giasip-skills/blob/main/docs/claim-ledger-method.md)。
+一个跑在 Claude Code 和 Codex 里的调研 skill：每条 claim 带来源 URL，"查不到"好过凭记忆猜，外加一个多模型派遣器。两轮对照实验显示，skill 从 18 行涨到 433 行，精度没涨，花费贵 6 到 13 倍，所以它一直停在 18 行。
 
 ## 我逐渐相信的几件事
 
@@ -84,7 +84,7 @@ The question flipped. An agent scans only the *shape* of your file system — ne
 If AI is going to work alongside people, it needs our context, and our context is a mess. Point kb-init at a Notion or Apple Notes export and it compiles years of notes into a knowledge base an agent can actually read. On two real exports, roughly 60% of the files turned out to be empty shells. Nothing is deleted; every drop is logged with its reason.
 
 **[giasip-skills](https://github.com/GiaSip/giasip-skills) — how do we keep them honest?**
-A research skill for Claude Code and Codex where every claim carries a source URL and a "not found" beats a guess, plus a multi-model dispatcher. Two controlled runs showed that growing the skill from 18 lines to 433 bought no precision and cost 6–13× more, so it stays at 18 lines. The method: [claim-ledger](https://github.com/GiaSip/giasip-skills/blob/main/docs/claim-ledger-method.md).
+A research skill for Claude Code and Codex where every claim carries a source URL and a "not found" beats a guess, plus a multi-model dispatcher. Two controlled runs showed that growing the skill from 18 lines to 433 bought no precision and cost 6–13× more, so it stays at 18 lines.
 
 ## A few things I've come to believe
 
